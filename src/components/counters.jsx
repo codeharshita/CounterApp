@@ -61,7 +61,7 @@ class Counters extends Component {
 export default Counters;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+console.log("Counters-Rendered");
   const {counters, onReset, onDelete,onIncrement} = this.props
         return (
         <div>
