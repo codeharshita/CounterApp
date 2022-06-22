@@ -4,6 +4,17 @@ import Counters from './components/counters';
 import NavBar from './components/navbar';
 
 class App extends Component {
+  
+  constructor(){
+    super();
+    console.log('App-Constructor');
+  }
+
+  componentDidMount(){
+    //AJAX calls from the server
+
+    console.log('App-Mounted');
+  }
 
   state = {  
 
